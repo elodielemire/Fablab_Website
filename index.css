@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'pixels';
+    src: url('pixels.TTF') format('truetype');
+    font-weight: 200px;
+    font-style: normal;
+}
+
+body
+{
+	margin: 0px;
+    background-color: #E0FFFF; 
+	background-image: url("background.jpg");
+	background-repeat : no-repeat;
+	background-size: cover; 
+}
+
+header
+{
+	color : #B22222;
+	font-size: 70px;
+	font-family : Courier New;
+	background-color : white;
+	text-align : center;
+	width = 100%;
+}
+
+header strong
+{
+	font-family: 'pixels', Arial, serif;
+	color: #008080;
+}
+
+.presentation h3
+{
+	color : #008080;
+}
+
+nav
+{
+    display: inline-block;
+    width: 15%;
+    vertical-align: top;
+    background-color: aliceblue;
+    margin-left: 0px;
+    padding-left: 4px;
+}
+
+nav a
+{
+	display: block;
+}
+
+.navTitle
+{
+    font-weight: bold;
+	color : #4682B4;
+}
+
+section
+{
+    margin: auto;
+	display: inline-block;
+    vertical-align: top;
+	width: 55%;
+}
+
+.authentification 
+{
+    position:fixed;
+    right: 20px;
+    top: 200px;
+    width : 15%;
+    background-color: #4682B4;
+    border-radius: 20px;
+	text-align : center;
+}
+
+.authentification h1
+{
+	font-size : 20px;
+	font-family: 'pixels', Arial;
+}
+
+.inscription 
+{
+    position:fixed;
+    right: 20px;
+    top: 430px;
+    width : 15%;
+    background-color: #4682B4;
+    border-radius: 20px;
+	text-align : center;
+}
+
+.inscription h1
+{
+	font-family: 'pixels', Arial;
+	font-size : 20px;
+}
+
+h2
+ {
+	color : red;
+ }
+ 
+h4
+ {
+	font-family: 'pixels', Arial, serif;
+	color : #8A2BE2;
+ }
+ 
+.tuto
+{
+    width : 15%;
+    background-color: #D8BFD8;
+    border-radius: 20px;
+	text-align : center;
+}
+ 
+.logout
+{
+	position:fixed;
+    right: 20px;
+    top: 80px;
+    height: 70px;
+    width : 300px;
+	background-color: #E6E6FA;
+    text-align : center;
+}
+
+footer
+{
+	text-align : center;
+	background-color : #005070;
+	bottom : 0; left : 0; right : 0;
+	position : fixed;
+	height : 30px;
+}
